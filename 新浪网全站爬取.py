@@ -20,14 +20,6 @@ def get_http(load_url,header=None):
             resp=resp.decode(encoding='utf-8')
         except:
             resp=resp.decode(encoding='gbk')
-
-
-
-
-
-
-
-
     except Exception as e:
         print(e)
     return str(resp)
